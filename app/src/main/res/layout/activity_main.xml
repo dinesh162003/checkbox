@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select your favorite Bike"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/chkKTM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KTM"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkHonda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Honda"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkRoyal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Royal"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkRM5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RM5"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkGlamour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glamour"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:layout_marginTop="20dp"
+        android:onClick="showSelected"/>
+
+</LinearLayout>
